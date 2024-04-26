@@ -4,8 +4,8 @@ import React from 'react'
 const Home = () => {
   const now=new Date();
 
-  const time= now.toLocaleTimeString('en-US',{hour:'2-digit', minute:'2-digit'});
-  const date=now.toLocaleDateString('en-US',{dateStyle:'full'});
+  const time= now.toLocaleTimeString('en-IN',{hour:'2-digit', minute:'2-digit'});
+  const date=now.toLocaleDateString('en-IN',{dateStyle:'full'});
   return (
     <section className='flex size-full flex-col gap-10 text-white'>
       <div className='h-[300px] w-full rounded-[20px] bg-hero bg-cover'>
