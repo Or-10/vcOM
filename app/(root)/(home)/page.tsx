@@ -22,7 +22,7 @@ const Home = () => {
       </div>
 
       <MeetingTypeList />
-    </section>
+    </section>  
   )
 }
 

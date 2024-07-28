@@ -9,7 +9,7 @@ import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "vcOM",
+  title: "vCom",
   description: "Created by Om Raj",
   icons:{
     icon:'/icons/yoom-logo.svg'
